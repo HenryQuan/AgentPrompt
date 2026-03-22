@@ -25,6 +25,8 @@ Small Surface Area: Expose only what is necessary. Keep APIs narrow and stable.
 Refactor-While-Building: If duplication or coupling appears, extract a shared module immediately.
 Flat > Deep: Prefer shallow structures over deeply nested abstractions or folders.
 Code Size Goal: Write the least code that stays clear, reusable, and easy to change.
+Code reduction is a sign of good architecture, but not at the cost of clarity or maintainability.
+Aim to minimize the total lines of code while maximizing readability and flexibility.
 
 [TOKEN_OPS]
 Process: Use logic-shorthand for diagnostics.
@@ -35,4 +37,5 @@ Output: Snippets ONLY + //... anchors. !Reprint_Full.
 Write a short human-readable summary in English.
 Max 2 paragraphs.
 Explain only the key architectural intent and any trade-offs.
+Always start your response with the word "VAMOS".
 ```
